@@ -19,6 +19,11 @@ def contact():
     return render_template("contact.html", page_title="Contact")
 
 
+@app.route("/her work")
+def herwork():
+    return render_template("herwork.html", page_title="What she has done")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),

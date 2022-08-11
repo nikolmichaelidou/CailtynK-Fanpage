@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
+
 {% for number in list_of_number%}
 <p> {{ number }} </p>
 {%endfor%}
 
+<h2> {{ page_title }} </h2>
+<br>
 <div class="row featurette">
     <div class="col-md-7">
+        <h3>Caitlyn Kiramman</h3>
         <p>
             Caitlyn Kiramman, also known as the Sheriff of Piltover, is a heroic playable champion in the MOBA game
             League
@@ -30,15 +34,26 @@
     </div>
 </div>
 <div class="col-md-5">
-    <img src="https://static.wikia.nocookie.net/p__/images/3/33/Caitlyn_Arcane_Poster.jpg" alt="image of Caitlyn">
+    <img src="https://c.tenor.com/a3LZE59wAXsAAAAi/caitlyn.gif" alt="gif of Caitlyn">
 </div>
 <div class="row featurette">
-    <div class="col-md-5">
-        <img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/5a/Vi_Casual_Render.png" alt="">
-    </div>
     <div class="col-md-7">
         <h3>Vi</h3>
-        <p>Biography</p>
+        <p>Once a criminal from the mean streets of Zaun, Vi Vi is a hotheaded, impulsive, and
+            fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed
+            finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens
+            to keep the peace in Piltover, she wields mighty hextech gauntlets gauntlets that
+            can punch through walls—and suspects—with equal ease.
+            Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome
+            woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely
+            honed
+            survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens to keep the
+            peace
+            in Piltover, she wields mighty hextech gauntlets gauntlets that can punch through
+            walls—and suspects—with equal ease.</p>
+    </div>
+    <div class="col-md-5">
+        <img src="https://c.tenor.com/dUCnsmkTiD8AAAAi/league-of-legends.gif" alt="gif of Vi">
     </div>
 </div>
 {% endblock %}
