@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-{{company[0]['name']}}
 
 <h2> {{ page_title }} </h2>
 <br>
@@ -54,4 +53,20 @@
         <img src="https://c.tenor.com/dUCnsmkTiD8AAAAi/league-of-legends.gif" alt="gif of Vi">
     </div>
 </div>
+
+{% for member in characters %}
+<div class="row featurette">
+    <div class="col-md-7">
+        <h3> {{ member.name }}</h3>
+        <p>
+            {{ member.description }}
+        </p>
+    </div>
+    <div class="col-md-5">
+        <img src="{{ member.image_source }}">
+    </div>
+</div>
+
+{% endfor %}
+
 {% endblock %}

@@ -1,10 +1,21 @@
 [ {
-    "name": "Valkyrie",
-    "description": "Kairi Imahara (Japanese: 今原カイリ; Imahara Kairi) better known as Valkyrie, is a Legend introduced in Season 9 of Apex Legends. A high-flying combatant with a jetpack built from the parts of a salvaged Titan, she joined the Apex Games to find her own path in life apart from her father's legacy.",
-    "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/5/5f/Valkyrie.jpg"
-},
-{
-    "name": "Loba",
-    "description": "Loba Andrade is a Legend first introduced in Season 5 of Apex Legends. A prolific thief, she impulsively entered the Apex Games to enact revenge on the simulacrum hitman Revenant.",
-    "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/7/7d/Loba.jpg"
-} ]
+        "name": "Valkyrie",
+        "description": "Kairi Imahara (Japanese: 今原カイリ; Imahara Kairi) better known as Valkyrie, is a Legend introduced in Season 9 of Apex Legends. A high-flying combatant with a jetpack built from the parts of a salvaged Titan, she joined the Apex Games to find her own path in life apart from her father's legacy.",
+        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/5/5f/Valkyrie.jpg"
+    },
+    {
+        "name": "Loba",
+        "description": "Loba Andrade is a Legend first introduced in Season 5 of Apex Legends. A prolific thief, she impulsively entered the Apex Games to enact revenge on the simulacrum hitman Revenant.",
+        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/7/7d/Loba.jpg"
+    },
+    {
+        "name": "Leona",
+        "description": "",
+        "image_source": ""
+    },
+    {
+        "name": "Diana",
+        "description": "Bearing her crescent moonblade moonblade, Diana Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to divine her power and purpose in this world.",
+        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Diana_Render.png"
+    }
+]
