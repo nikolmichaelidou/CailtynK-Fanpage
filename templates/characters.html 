@@ -1,0 +1,15 @@
+{% extend "base.html" %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-5">
+            <img src="{{ characters.image_source }}" alt="Profile image for {{ characters.name }}">
+            <h2 class="col-md-7">{{ characters.name }}</h2>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <p>{{ characters.description }}</p>
+    </div>
+
+{% endblock %}

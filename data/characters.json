@@ -1,32 +1,38 @@
 [ {
         "name": "Caitlyn Kiramman",
         "description": "Caitlyn Kiramman is a scion of the Kiramman Clan, one of the ruling houses of Piltover. Eager to see the world for herself and disdainful of the traditional elitist lifestyle that her parents had raised her in, Caitlyn joined the Enforcers as a young woman to make a name for herself. When Marcus, the Sheriff of the Enforcers, and her parents-for very different reasons-started blocking her efforts to further investigate an undercity conspiracy, Caitlyn set off on her own to find answers, only to get much more than she bargained for.",
-        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a0/Caitlyn_Arcane_3_Render.png"
+        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a0/Caitlyn_Arcane_3_Render.png",
+        "url": "caitlyn"
 
     },
     {
         "name": "Vi",
         "description": "Violet is the elder sister to Powder, both adopted by Vander after the death of their parents in a battle with Piltovan enforcers. She is extremely protective of Powder, often defending her clumsiness against fellow adopted sibling Mylo. A natural brute, she often settles matters with her fists than her head.",
-        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/Vi_Arcane_3_Render.png"
+        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/Vi_Arcane_3_Render.png",
+        "url": "vi"
     },
     {
         "name": "Valkyrie",
         "description": "Kairi Imahara (Japanese: 今原カイリ; Imahara Kairi) better known as Valkyrie, is a Legend introduced in Season 9 of Apex Legends. A high-flying combatant with a jetpack built from the parts of a salvaged Titan, she joined the Apex Games to find her own path in life apart from her father's legacy.",
-        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/5/5f/Valkyrie.jpg"
+        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/5/5f/Valkyrie.jpg",
+        "url": "valkyrie"
     },
     {
         "name": "Loba",
         "description": "Loba Andrade is a Legend first introduced in Season 5 of Apex Legends. A prolific thief, she impulsively entered the Apex Games to enact revenge on the simulacrum hitman Revenant.",
-        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/7/7d/Loba.jpg"
+        "image_source": "https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/7/7d/Loba.jpg",
+        "url": "loba"
     },
     {
         "name": "Leona",
         "description": "",
-        "image_source": ""
+        "image_source": "",
+        "url": "leona"
     },
     {
         "name": "Diana",
         "description": "Bearing her crescent moonblade moonblade, Diana Diana fights as a warrior of the Lunari, a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to divine her power and purpose in this world.",
-        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Diana_Render.png"
+        "image_source": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Diana_Render.png",
+        "url": "diana"
     }
 ]

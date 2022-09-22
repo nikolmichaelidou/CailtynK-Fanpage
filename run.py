@@ -18,14 +18,20 @@ def about():
     return render_template("about.html", page_title="Meet the characters", characters=data)
 
 
+@app.route("/about/<characters _name>")
+def about_characters(characters_name):
+    characters = {}
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)
+        for object in data:
+            if object["url"] == characters_name:
+                characters = object
+    return render_template("characters.html", characters=characters)
+
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html", page_title="Contact")
-
-
-@app.route("/her work")
-def herwork():
-    return render_template("herwork.html", page_title="What she has done")
 
 
 if __name__ == "__main__":
