@@ -18,7 +18,7 @@ def about():
     return render_template("about.html", page_title="Meet the characters", characters=data)
 
 
-@app.route("/about/<characters _name>")
+@app.route("/about/<characters_name>")
 def about_characters(characters_name):
     characters = {}
     with open("data/company.json", "r") as json_data:
