@@ -18,15 +18,15 @@ def about():
     return render_template("about.html", page_title="Meet the characters", characters=data)
 
 
-#@app.route("/about/<characters_name>")
-#def about_characters(characters_name):
-#    characters = {}
-#    with open("data/company.json", "r") as json_data:
-#        data = json.load(json_data)
-#        for object in data:
-#            if object["url"] == characters_name:
-#                characters = object
-#    return render_template("characters.html", characters=characters)
+@app.route("/about/<characters_name>")
+def about_characters(characters_name):
+    characters = {}
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)
+        for object in data:
+            if object["url"] == characters_name:
+                characters = object
+    return render_template("characters.html", characters=characters)
 
 
 @app.route("/contact")
