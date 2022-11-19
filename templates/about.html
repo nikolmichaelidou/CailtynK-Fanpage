@@ -10,7 +10,7 @@
     <div class="col-md-7">
         <h3> {{loop.index }}. {{ characters.name }}</h3>
         <p>{{ member.description }}</p>
-        <p>{{ member.abilities }}</p>
+        <em><strong>{{ member.quote }}</strong></em>
     </div>
     <div class="col-md-5">
         <img src=" {{ member.image_source }} " alt="">
@@ -22,6 +22,7 @@
     <div class="col-md-7">
         <h3> {{ loop.index }}. {{ characters.name }}</h3>
         <p>{{ member.description }}</p>
+        <em><strong>{{ member.quote }}</strong></em>
     </div>
     {% endif %}
 </div>
