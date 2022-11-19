@@ -31,6 +31,11 @@ def contact():
     return render_template("contact.html", page_title="Contact")
 
 
+@app.route("/missions")
+def missions():
+    render_template("missions.html", page_title="Her Story")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
