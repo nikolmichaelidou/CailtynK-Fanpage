@@ -28,7 +28,8 @@ This website will mainly focus on the Arcane universe, but users will still able
   - Where users could comment on about Caitlyn's bio page and have discussions about different missions
 - Community Page
   - A page where users would able to share gameplay clips and fan-art
-  - With the ability for users to Login and even take notes from the Tip page for their own gameplay  
+  - With the ability for users to Login and even take notes from the Tip page for their own gameplay 
+![](imgs/discussion_board.png) 
 
 ## Bugs & Fixes
 
