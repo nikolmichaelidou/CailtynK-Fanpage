@@ -1,10 +1,13 @@
 # Caitlyn Kirraman Fan-Website
 
 ## Description
+
 This a fan-website for the fictional character Caitlyn Kiramman from the popular game League Of Legends and the award winning show Arcane!
+
 ## UX
 
 ## Features
+
 - Home page
   - The home page features a header with an animated background
   ![](imgs/Screenshot_20221119_112809.png)

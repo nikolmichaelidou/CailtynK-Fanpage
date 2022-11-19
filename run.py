@@ -33,7 +33,7 @@ def contact():
 
 @app.route("/missions")
 def missions():
-    render_template("missions.html", page_title="Her Story")
+    return render_template("missions.html", page_title="Her Story")
 
 
 if __name__ == "__main__":
