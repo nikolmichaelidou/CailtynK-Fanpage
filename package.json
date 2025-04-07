@@ -1,0 +1,13 @@
+{
+  "name": "cailtynk-fanpage",
+  "version": "1.0.0",
+  "scripts": {
+    // ...existing code...
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    // ...existing code...
+    "gh-pages": "^3.2.3"
+  }
+  // ...existing code...
+}
